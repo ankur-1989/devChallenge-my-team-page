@@ -3,7 +3,6 @@
 }
 
 body {
-    position: relative; 
     display: flex;
     flex-direction: column; 
     margin: 0;
@@ -142,10 +141,8 @@ footer {
     line-height: 17px;
     text-align: center;
     color: #BDBDBD; 
-    position: absolute;
-    bottom: 20px;
     width: calc(100% - 40px);
-    margin: auto;
+    margin-bottom: 20px;
 }
 footer > a:first-child {
     color: #BDBDBD; 
