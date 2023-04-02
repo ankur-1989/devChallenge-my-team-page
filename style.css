@@ -31,13 +31,6 @@ header > h1 {
     margin: 0;
 }
 
-@media screen and (max-width: 767px) {
-    header {
-        grid-template-columns: 1fr;
-        text-align: left;
-    }
-}
-
 .aboutUsTitle, .name {
     font-family: 'Poppins';
     font-size: 18px;
@@ -101,6 +94,8 @@ img {
 @media screen and (max-width: 767px) {
     header {
         width: calc(100% - 40px);
+        grid-template-columns: 1fr;
+        text-align: left;
     }
     main {
         max-width: unset;
